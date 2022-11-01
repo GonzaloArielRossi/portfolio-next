@@ -9,7 +9,10 @@ function Cta() {
   };
 
   return (
-    <div className="section --cta-space">
+    <section
+      className={isMobile ? '--cta-space mobile--gap' : '--cta-space'}
+      id="--section-separation"
+    >
       <div
         className={
           isMobile
@@ -51,7 +54,7 @@ function Cta() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

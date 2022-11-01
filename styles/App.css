@@ -99,7 +99,7 @@ body {
 
 @media (max-width: 767px) {
   #code {
-    font-size: 0.5rem !important;
+    font-size: 0.8rem !important;
   }
   .--extra {
     display: block;
@@ -107,6 +107,10 @@ body {
   .--change-flex-dir {
     flex-direction: column;
   }
+}
+
+.mobile--gap {
+  max-width: 90vw;
 }
 
 /* CTA */
@@ -127,7 +131,7 @@ body {
 }
 
 .--cta-space {
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 
 /* CONTACT FORM */

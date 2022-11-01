@@ -5,7 +5,6 @@ import Projects from '../components/Projects/Projects';
 import Hero from '../components/Hero/Hero';
 import Cta from '../components/Cta/Cta';
 import Footer from '../components/Footer/Footer';
-
 export default function Home() {
   return (
     <div>
@@ -14,7 +13,7 @@ export default function Home() {
         <meta content="Gonzalo Ariel Rossi" name="description" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
-      <div className="container">
+      <div className={'container'}>
         <NavBar />
         <main>
           <Hero id="hero" />

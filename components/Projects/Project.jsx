@@ -16,7 +16,9 @@ const Project = (props) => {
               <Image
                 alt={props.alt}
                 className="--shadow --image"
+                height={'100'}
                 src={props.gif}
+                width={'100'}
               />
             </figure>
           )}
