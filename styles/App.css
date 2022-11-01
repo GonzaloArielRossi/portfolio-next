@@ -111,6 +111,7 @@ body {
 
 .mobile--gap {
   max-width: 90vw;
+  margin: 0 auto;
 }
 
 /* CTA */
