@@ -97,6 +97,11 @@ body {
   display: none;
 }
 
+.--navbar-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 @media (max-width: 767px) {
   #code {
     font-size: 0.8rem !important;
@@ -106,6 +111,10 @@ body {
   }
   .--change-flex-dir {
     flex-direction: column;
+  }
+  .--navbar-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 

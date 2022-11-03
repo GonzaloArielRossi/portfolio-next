@@ -18,7 +18,7 @@ const NavBar = () => {
     <>
       <nav
         aria-label="main navigation"
-        className="navbar is-transparent py-6"
+        className="navbar is-transparent --navbar-padding"
         role="navigation"
       >
         <div className="navbar-brand">
