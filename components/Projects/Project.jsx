@@ -14,8 +14,9 @@ const Project = (props) => {
           {isMobile && (
             <figure className="image column is-two-thirds">
               <Image
+                priority
                 alt={props.alt}
-                className="--shadow --image"
+                className={'--shadow --image'}
                 height={'100'}
                 src={props.gif}
                 width={'100'}
@@ -25,8 +26,9 @@ const Project = (props) => {
           {!isMobile && props.id % 2 === 0 && (
             <figure className="image column is-two-thirds">
               <Image
+                priority
                 alt={props.alt}
-                className="--shadow --image"
+                className={'--shadow --image'}
                 height={'100'}
                 src={props.gif}
                 width={'100'}
@@ -49,15 +51,47 @@ const Project = (props) => {
               ))}
             </div>
             <div className="is-align-self-center">
-              <Link
-                className="is-size-2 "
-                href={props.githubLink}
-                rel="noreferrer"
-                target="_blank"
-              >
-                <VscGithub className=" --hover-color" />
-              </Link>
-              {!isMobile && (
+              {props.id !== 1 && (
+                <Link
+                  className="is-size-2 "
+                  href={props.githubLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <VscGithub className=" --hover-color" />
+                </Link>
+              )}
+              {!isMobile && props.id !== 1 && (
+                <Link
+                  className="ml-6 is-size-2 "
+                  href={props.deployLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <VscRocket className=" --hover-color" />
+                </Link>
+              )}
+              {!isMobile && props.id === 1 && (
+                <Link
+                  className="is-size-2 "
+                  href={props.githubLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <VscGithub className=" --hover-color" />
+                </Link>
+              )}
+              {!isMobile && props.id === 1 && (
+                <Link
+                  className="ml-6 is-size-2 "
+                  href={props.deployLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <VscRocket className=" --hover-color" />
+                </Link>
+              )}
+              {isMobile && props.id === 1 && (
                 <Link
                   className="ml-6 is-size-2 "
                   href={props.deployLink}
@@ -72,8 +106,9 @@ const Project = (props) => {
           {!isMobile && props.id % 2 !== 0 && (
             <figure className="image column is-two-thirds">
               <Image
+                priority
                 alt={props.alt}
-                className="--shadow --image"
+                className={'--shadow --image'}
                 height={'100'}
                 src={props.gif}
                 width={'100'}

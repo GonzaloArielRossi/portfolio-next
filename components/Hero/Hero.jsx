@@ -6,11 +6,7 @@ export const Hero = () => {
   return (
     <>
       <section
-        className={
-          isMobile
-            ? ' mobile--gap --section-gap --padding'
-            : '--section-gap --padding'
-        }
+        className={isMobile ? ' mobile--gap --section-gap' : '--section-gap'}
       >
         <Code />
       </section>

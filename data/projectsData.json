@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "name": "Flybondi Adventures",
+    "gif": "/projects/flybondyadventures.gif",
+    "alt": "Flybondi Adventures app screenshot",
+    "description": "This Full-Stack project is a \"random\" flight search engine for people looking for an adventure. The front-end is a clone of Flybondi's UI. All the data is fetched from a MongoDB database through a RESTful API",
+    "techStack": [
+      "NextJS",
+      "ReactJS",
+      "Chakra UI",
+      "MongoDB",
+      "Mongoose",
+      "Express",
+      "NodeJs"
+    ],
+    "githubLink": "https://github.com/GonzaloArielRossi/flybondi-adventures",
+    "deployLink": "https://flybondi-adventures-g5pkd64x3-gonzaloarielrossi.vercel.app/"
+  },
+  {
+    "id": 2,
     "name": "Natours",
     "gif": "/projects/natoursdemo.gif",
     "alt": "natours app screenshot",
@@ -10,7 +28,7 @@
     "deployLink": "https://natours-rossi.herokuapp.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Sample Bucket",
     "gif": "/projects/samplebucketdemo.gif",
     "alt": "sample bucket app screenshot",
