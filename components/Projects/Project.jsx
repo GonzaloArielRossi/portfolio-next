@@ -93,7 +93,7 @@ const Project = (props) => {
               )}
               {isMobile && props.id === 1 && (
                 <Link
-                  className="ml-6 is-size-2 "
+                  className="is-size-2 "
                   href={props.deployLink}
                   rel="noreferrer"
                   target="_blank"
