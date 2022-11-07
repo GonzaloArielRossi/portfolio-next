@@ -4,7 +4,7 @@
     "name": "Flybondi Adventures",
     "gif": "/projects/flybondyadventures.gif",
     "alt": "Flybondi Adventures app screenshot",
-    "description": "This Full-Stack project is a \"random\" flight search engine for people looking for an adventure. The front-end is a clone of Flybondi's UI. All the data is fetched from a MongoDB database through a RESTful API",
+    "description": "This Full-Stack project is a flight search engine for people on a budget with no particular destination in mind. The front-end is a clone of Flybondi's UI. All the data is fetched from a MongoDB database through a RESTful API",
     "techStack": [
       "NextJS",
       "ReactJS",
