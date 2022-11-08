@@ -4,7 +4,7 @@ function Code() {
   const linesOfCode = 23;
 
   return (
-    <div className="box code-background is-flex is-flex-direction-column has-text-white --code-about-me ">
+    <div className="box code-background is-flex is-flex-direction-column has-text-white --code-about-me --shadow">
       {/* Title Bar */}
       <div className="is-flex mb-4 window-title-text-size" id="code">
         <div className="gg-windows-control">

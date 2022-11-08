@@ -16,8 +16,8 @@ function Cta() {
       <div
         className={
           isMobile
-            ? 'box columns --cta-color has-text-light --border m-0'
-            : 'box columns --cta-color has-text-light --border m-0 --pad-0'
+            ? 'box columns --cta-color has-text-light --border m-0 --shadow'
+            : 'box columns --cta-color has-text-light --border m-0 --pad-0 --shadow'
           // : 'box columns --cta-color has-text-light --border ml-0 mr-0 mt-0 mb-0 --pad-0'
         }
       >

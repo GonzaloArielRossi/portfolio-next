@@ -7,7 +7,7 @@ body {
 }
 
 .--hover-color-alt:hover {
-  color: #141c3a;
+  color: #f3f3f3;
 }
 .--flex-gap-0 {
   gap: 0.1rem;
@@ -166,6 +166,10 @@ body {
 .--icon {
   font-size: 2.5rem;
   color: #f3f3f3;
+}
+
+.--footer-text {
+  color: #dfc9fc;
 }
 
 /* PROJECTS */
