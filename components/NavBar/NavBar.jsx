@@ -23,12 +23,14 @@ const NavBar = () => {
       >
         <div className="navbar-brand is-size-3">
           <Link
-            className="navbar-item has-text-primary is-black py-0"
+            className="navbar-item has-text-primary py-0"
             href="/"
             onClick={closeBurgerMenu}
           >
             <BsTerminal className="has-text-weight-medium " />
-            <span className="has-text-weight-bold ml-2">GonzaloRossi.dev</span>
+            <span className="has-text-weight-bold ml-2 mt-1">
+              GonzaloRossi.dev
+            </span>
           </Link>
           <a
             aria-expanded="false"
