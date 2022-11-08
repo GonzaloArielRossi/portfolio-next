@@ -36,6 +36,12 @@ export default function Home() {
         />
         <meta content="index" name="robots" />
         <meta content="follow" name="robots" />
+        <meta
+          content="HTML, CSS, JavaScript, React, Node, Developer, Full Stack Developer, Front End Developer, Back End Developer, NextJs, Express, SQL, Gonzalo Rossi, Gonzalo Ariel Rossi, Programador, developer"
+          name="keywords"
+        />
+        <meta content="Gonzalo Ariel Rossi" name="author" />
+        <meta content="https://gonzalorossi.dev/" property="og:url" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <div className={'container'}>
