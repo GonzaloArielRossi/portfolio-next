@@ -10,7 +10,32 @@ export default function Home() {
     <div>
       <Head>
         <title>Home | Gonzalo Rossi</title>
-        <meta content="Gonzalo Ariel Rossi" name="description" />
+        <meta content="Gonzalo Ariel Rossi" property="og:title" />
+        <meta content="Gonzalo Ariel Rossi" name="twitter:title" />
+
+        <meta
+          content="Full Stack Developer | React NextJs NodeJs Express MongoDB"
+          name="description"
+        />
+        <meta
+          content="Full Stack Developer | React NextJs NodeJs Express MongoDB"
+          property="og:description"
+        />
+        <meta
+          content="Full Stack Developer | React NextJs NodeJs Express MongoDB"
+          name="twitter:description"
+        />
+
+        <meta
+          content="https://i.postimg.cc/ZRDD9GX2/porfolio-Img.png"
+          property="og:image"
+        />
+        <meta
+          content="https://i.postimg.cc/ZRDD9GX2/porfolio-Img.png"
+          name="twitter:image"
+        />
+        <meta content="index" name="robots" />
+        <meta content="follow" name="robots" />
         <link href="/favicon.ico" rel="icon" />
       </Head>
       <div className={'container'}>
