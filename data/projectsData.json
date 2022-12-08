@@ -25,7 +25,7 @@
     "description": "Robust RESTful API with JWT, file uploads, emails, Stripe payments, Mapbox, route protection, roles, permissions, security, encryption, geospatial queries, pagination, filters, sorts and more. It also has a front-end created with Pug.",
     "techStack": ["NodeJs", "Express", "MongoDB", "Mongoose", "JWT", "Pug"],
     "githubLink": "https://github.com/GonzaloArielRossi/natours-app",
-    "deployLink": "https://natours-rossi.herokuapp.com/"
+    "deployLink": "https://motionless-gold-belt.cyclic.app/"
   },
   {
     "id": 3,

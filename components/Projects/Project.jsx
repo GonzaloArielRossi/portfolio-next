@@ -7,7 +7,7 @@ const Project = (props) => {
   return (
     <>
       <div className="box --item-gap">
-        <div className="has-text-centered has-text-weight-bold mb-6 is-size-2">
+        <div className="has-text-centered has-text-weight-bold is-size-2 mb-6">
           {props.name}
         </div>
         <div className="columns is-8 is-vcentered ">
@@ -23,18 +23,7 @@ const Project = (props) => {
               />
             </figure>
           )}
-          {!isMobile && props.id % 2 === 0 && (
-            <figure className="image column is-two-thirds">
-              <Image
-                priority
-                alt={props.alt}
-                className={'--shadow --image'}
-                height={'100'}
-                src={props.gif}
-                width={'100'}
-              />
-            </figure>
-          )}
+
           <div className="is-flex is-flex-direction-column --flex-gap-2 --project-info column is-one-half is-size-5">
             <div className="has-text-centered">{props.description}</div>
             <div className="is-flex is-flex-direction-column --flex-gap-0">
@@ -103,7 +92,7 @@ const Project = (props) => {
               )}
             </div>
           </div>
-          {!isMobile && props.id % 2 !== 0 && (
+          {!isMobile && (
             <figure className="image column is-two-thirds">
               <Image
                 priority
